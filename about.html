@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HUI-YO HUNG</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <!-- header start-->
+    <div class="container header_bg">
+      <div class="header_container">
+        <div class="header_title"><a href="index.html">HUI-YO HUNG</a></div>
+        <nav class="menu">
+          <ul>
+            <li>
+              <a href="index.html"><div>PROJECTS</div></a>
+            </li>
+            <li>
+              <a href="app.html"><div>APP</div></a>
+            </li>
+            <li>
+              <a href="creation.html"><div>CREATION</div></a>
+            </li>
+            <li>
+              <a href="about.html"><div class="active">ABOUT</div></a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="hamburgaricon">
+          <input type="checkbox" id="toggler" />
+          <label for="toggler">
+            <div class="closemenu is-active">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </label>
+
+          <nav class="menu_m">
+            <ul>
+              <li>
+                <a href="index.html"><div>PROJECTS</div></a>
+              </li>
+              <li>
+                <a href="app.html"><div>APP</div></a>
+              </li>
+              <li>
+                <a href="creation.html"><div>CREATION</div></a>
+              </li>
+              <li>
+                <a href="about.html"><div class="active">ABOUT</div></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <!-- header end-->
+
+    <main>
+      <!--projects start -->
+      <article class="page">
+        <div class="wrapper">
+          <section class="container">
+            <div class="about_boxes">
+              <div class="about_img">
+                <img src="image/molly.jpg" width="100%" alt="molly" />
+              </div>
+              <div class="about_font order">
+                <h1>HUI-YO HUNG</h1>
+                <p>
+                  Hi 我是
+                  Molly，目前任職於人力銀行擔任網頁設計師，擅長平面設計、活動頁視覺及RWD設計，負責官網
+                  RWD 改版規劃及維護，有 APP 使用者介面設計之實務經驗。
+                  <br />在網頁及網站規劃上，我重視可用性和用戶體驗，透過 GA
+                  數據分析使用者行為、優化網頁，將設計思維結合前端技術，致力於帶給使用者美觀又便利的操作介面。
+                </p>
+                <a
+                  href="https://www.cakeresume.com/s--tKTQ4H3z48ksF1ZC_DOtDA--/mollyhung"
+                  ><div class="resume_cta">Resume</div></a
+                >
+              </div>
+            </div>
+          </section>
+        </div>
+      </article>
+      <!--projects end -->
+    </main>
+
+    <!-- js -->
+    <script class="autoinsert" src="js/jquery.min.js"></script>
+
+    <script src="js/wow.min.js"></script>
+    <script>
+      var wow = new WOW({
+        mobile: false,
+      });
+      wow.init();
+    </script>
+  </body>
+</html>

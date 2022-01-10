@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HUI-YO HUNG</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <!-- header start-->
+    <div class="container header_bg">
+      <div class="header_container">
+        <div class="header_title"><a href="#">HUI-YO HUNG</a></div>
+        <nav class="menu">
+          <ul>
+            <li>
+              <a href="index.html"><div class="active">PROJECTS</div></a>
+            </li>
+            <li>
+              <a href="app.html"><div>APP</div></a>
+            </li>
+            <li>
+              <a href="creation.html"><div>CREATION</div></a>
+            </li>
+            <li>
+              <a href="about.html"><div>ABOUT</div></a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="hamburgaricon">
+          <input type="checkbox" id="toggler" />
+          <label for="toggler">
+            <div class="closemenu is-active">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </label>
+
+          <nav class="menu_m">
+            <ul>
+              <li>
+                <a href="index.html"><div class="active">PROJECTS</div></a>
+              </li>
+              <li>
+                <a href="app.html"><div>APP</div></a>
+              </li>
+              <li>
+                <a href="creation.html"><div>CREATION</div></a>
+              </li>
+              <li>
+                <a href="about.html"><div>ABOUT</div></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <!-- header end-->
+
+    <main>
+      <!--main start -->
+      <article>
+        <section>
+          <div class="bg_grey"></div>
+        </section>
+
+        <section>
+          <div class="projects_imgbox">
+            <div class="projects_img">
+              <picture>
+                <!-- <source
+                srcset="img/main_mob.jpg"
+                alt="mainbg"
+                media="(max-width: 767px)"
+              /> -->
+                <img
+                  src="image/project08/H_main_img.png"
+                  width="100%"
+                  alt="24h必回覆"
+                />
+              </picture>
+            </div>
+          </div>
+        </section>
+      </article>
+      <!--main end -->
+
+      <!-- page start -->
+      <article class="page">
+        <div class="wrapper">
+          <section class="container">
+            <h2>色彩搭配 <span class="font_en"> / Color Match</span></h2>
+            <div class="color_boxes color_boxes02">
+              <div class="colorcode">
+                <div class="circle" style="background-color: #ff4654">
+                  <span class="font_colorcode" style="color: #fff"
+                    >#FF4654</span
+                  >
+                </div>
+              </div>
+              <div class="colorcode">
+                <div class="circle" style="background-color: #ffea00">
+                  <span class="font_colorcode" style="color: #9b001c"
+                    >#FFEA00</span
+                  >
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="container">
+            <h2>視覺設計<span class="font_en"> / Visual Design </span></h2>
+            <div class="item">
+              <ul>
+                <li>
+                  <p>
+                    以斜體呈現速度感，並將筆畫末端點處加上突出小斜尖，讓速度感和力度更強烈
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    針對標題關鍵字:「履歷」及「回覆」，觀察字體筆畫的結構，將相關元素融合於字體裡
+                  </p>
+                </li>
+              </ul>
+              <div class="item_img">
+                <picture>
+                  <img src="image/project08/H_item01.png" alt="H_item01" />
+                </picture>
+              </div>
+            </div>
+
+            <div class="item">
+              <ul>
+                <li>
+                  <p>活動步驟設計</p>
+                </li>
+              </ul>
+              <div class="item_img w950">
+                <picture>
+                  <img src="image/project08/H_item02.png" alt="H_item02" />
+                </picture>
+              </div>
+            </div>
+
+            <div class="item">
+              <ul>
+                <li>
+                  <p>職缺分類設計</p>
+                </li>
+              </ul>
+              <div class="item_img w950">
+                <picture>
+                  <img src="image/project08/H_item03.png" alt="H_item03" />
+                </picture>
+              </div>
+            </div>
+          </section>
+        </div>
+      </article>
+      <!-- page end -->
+    </main>
+
+    <!-- js -->
+    <script class="autoinsert" src="js/jquery.min.js"></script>
+
+    <script src="js/wow.min.js"></script>
+    <script>
+      var wow = new WOW({
+        mobile: false,
+      });
+      wow.init();
+    </script>
+  </body>
+</html>

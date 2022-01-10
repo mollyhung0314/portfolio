@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HUI-YO HUNG</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <!-- header start-->
+    <div class="container header_bg">
+      <div class="header_container">
+        <div class="header_title"><a href="#">HUI-YO HUNG</a></div>
+        <nav class="menu">
+          <ul>
+            <li>
+              <a href="index.html"><div class="active">PROJECTS</div></a>
+            </li>
+            <li>
+              <a href="app.html"><div>APP</div></a>
+            </li>
+            <li>
+              <a href="creation.html"><div>CREATION</div></a>
+            </li>
+            <li>
+              <a href="about.html"><div>ABOUT</div></a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="hamburgaricon">
+          <input type="checkbox" id="toggler" />
+          <label for="toggler">
+            <div class="closemenu is-active">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </label>
+
+          <nav class="menu_m">
+            <ul>
+              <li>
+                <a href="index.html"><div class="active">PROJECTS</div></a>
+              </li>
+              <li>
+                <a href="app.html"><div>APP</div></a>
+              </li>
+              <li>
+                <a href="creation.html"><div>CREATION</div></a>
+              </li>
+              <li>
+                <a href="about.html"><div>ABOUT</div></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <!-- header end-->
+
+    <main>
+      <!--main start -->
+      <article>
+        <section>
+          <div class="bg_grey"></div>
+        </section>
+
+        <section>
+          <div class="projects_imgbox">
+            <div class="projects_img">
+              <picture>
+                <!-- <source
+                srcset="img/main_mob.jpg"
+                alt="mainbg"
+                media="(max-width: 767px)"
+              /> -->
+                <img
+                  src="image/project07/G_main_img.png"
+                  width="100%"
+                  alt="護理師節"
+                />
+              </picture>
+            </div>
+          </div>
+        </section>
+      </article>
+      <!--main end -->
+
+      <!-- page start -->
+      <article class="page">
+        <div class="wrapper">
+          <section class="container">
+            <h2>色彩搭配 <span class="font_en"> / Color Match</span></h2>
+            <p>配合護師節主題，以常見的護理師制服粉紫、粉紅色作為主要配色</p>
+            <div class="color_boxes color_boxes02">
+              <div class="colorcode">
+                <div class="circle" style="background-color: #a18cf8">
+                  <span class="font_colorcode" style="color: #fff"
+                    >#A18CF8</span
+                  >
+                </div>
+              </div>
+              <div class="colorcode">
+                <div class="circle" style="background-color: #ff7299">
+                  <span class="font_colorcode" style="color: #fff"
+                    >#FF7299</span
+                  >
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="container">
+            <h2>視覺設計<span class="font_en"> / Visual Design </span></h2>
+            <div class="item">
+              <ul>
+                <li>
+                  <p>依照護師節起源內容設計示意圖，並以時間軸方式呈現</p>
+                </li>
+              </ul>
+              <div class="item_img w950">
+                <picture>
+                  <source
+                    srcset="image/project07/G_item01_m.png"
+                    alt="I_main_img_m"
+                    media="(max-width: 767px)"
+                  />
+                  <img src="image/project07/G_item01.png" alt="G_item01" />
+                </picture>
+              </div>
+            </div>
+          </section>
+
+          <section class="container">
+            <h2>網頁設計<span class="font_en"> / Web Design </span></h2>
+            <div class="item">
+              <ul>
+                <li>
+                  <p>利用position定位，讓時間軸在不同的裝置有最佳的視覺體驗</p>
+                </li>
+              </ul>
+              <div class="item_img w950">
+                <picture>
+                  <img src="image/project07/G_item02.png" alt="G_item02" />
+                </picture>
+              </div>
+            </div>
+          </section>
+        </div>
+      </article>
+      <!-- page end -->
+    </main>
+
+    <!-- js -->
+    <script class="autoinsert" src="js/jquery.min.js"></script>
+
+    <script src="js/wow.min.js"></script>
+    <script>
+      var wow = new WOW({
+        mobile: false,
+      });
+      wow.init();
+    </script>
+  </body>
+</html>
