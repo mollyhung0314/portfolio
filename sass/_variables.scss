@@ -1,23 +1,59 @@
 // main_color
 $main_color: #7c44de;
 $secondary_color_font: #bbbcf8;
+$black: #595959;
 
 //bg_Color
-$bg_gary: #f5f5f5;
+$bg_gary: #fbfbfb;
 
 //font_Color
-$font_black: #595959;
 
 //value
 
 //radious
+$box_border-radius: 8px;
 
-// border
+// box
 $box_border: 2px #181818 solid;
+$box_border_grey: 1px #e4e4e4 solid;
+$box_shadow: 0px 1px 3px 0px #cfcfcf;
 
 //fontsize
-$fontsize_h2: 24px;
+$fontsize_h2: 22px;
 $fontsize_h2_m: 19px;
 $fontsize_p: 18px;
 $fontsize_p_m: 16px;
-//width
+
+%font_h2 {
+  color: $black;
+  font-size: 24px;
+  margin-bottom: 12px;
+  line-height: 1.5;
+  //   font-weight: bold;
+  letter-spacing: 2px;
+  font-weight: bold;
+  @media screen and (max-width: 736px) {
+    font-size: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+  }
+}
+
+%font_p {
+  font-size: 18px;
+  color: $black;
+  line-height: 1.8;
+  letter-spacing: 2px;
+  @media screen and (max-width: 736px) {
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+}
+
+%model {
+  width: 100%;
+  margin-bottom: 88px;
+  @media screen and (max-width: 736px) {
+    margin-bottom: 40px;
+  }
+}

@@ -15,7 +15,7 @@
   </head>
   <body>
     <!-- header start-->
-    <div class="container header_bg">
+    <div class="header_bg">
       <div class="header_container">
         <div class="header_title"><a href="#">HUI-YO HUNG</a></div>
         <nav class="menu">
@@ -24,10 +24,7 @@
               <a href="index.html"><div class="active">PROJECTS</div></a>
             </li>
             <li>
-              <a href="app.html"><div>APP</div></a>
-            </li>
-            <li>
-              <a href="creation.html"><div>CREATION</div></a>
+              <a href="design.html"><div>DESIGN</div></a>
             </li>
             <li>
               <a href="about.html"><div>ABOUT</div></a>
@@ -51,10 +48,7 @@
                 <a href="index.html"><div class="active">PROJECTS</div></a>
               </li>
               <li>
-                <a href="app.html"><div>APP</div></a>
-              </li>
-              <li>
-                <a href="creation.html"><div>CREATION</div></a>
+                <a href="design.html"><div>DESIGN</div></a>
               </li>
               <li>
                 <a href="about.html"><div>ABOUT</div></a>
@@ -67,12 +61,8 @@
     <!-- header end-->
 
     <main>
-      <!--main start -->
-      <article>
-        <section>
-          <div class="bg_grey"></div>
-        </section>
-
+      <!-- page start -->
+      <article class="page">
         <section>
           <div class="projects_imgbox">
             <a
@@ -81,11 +71,6 @@
             >
               <div class="projects_img">
                 <picture>
-                  <!-- <source
-                srcset="img/main_mob.jpg"
-                alt="mainbg"
-                media="(max-width: 767px)"
-              /> -->
                   <img
                     src="image/project04/D_main_img.png"
                     width="100%"
@@ -96,14 +81,9 @@
             </a>
           </div>
         </section>
-      </article>
-      <!--main end -->
-
-      <!-- page start -->
-      <article class="page">
         <div class="wrapper">
           <section class="container">
-            <h2>色彩搭配 <span class="font_en"> / Color Match</span></h2>
+            <h2 class="mb0_m">Color Match</h2>
             <p>主色採用具神祕感的暗紅色，搭配帶有金屬質地的金、銀色做為點綴</p>
             <div class="color_boxes">
               <div class="colorcode">
@@ -131,17 +111,23 @@
           </section>
 
           <section class="container">
-            <h2>視覺設計<span class="font_en"> / Visual Design </span></h2>
-            <div class="item">
+            <h2 class="title_none">Visual Design</h2>
+            <div class="model_01 mt28 flex_direction">
               <ul>
                 <li>
-                  <p>電玩主題定位，以金屬質地做為主要搭配原素</p>
-                </li>
-                <li>
+                  <h2>Visual Design</h2>
                   <p>
-                    標題利用圖層樣式效果，製造微立體效果，並局部添加光源及光感線條，讓視覺更具衝擊力
+                    電玩主題定位，以金屬質地做為主要搭配原素。<span
+                      class="font_block"
+                      >標題利用圖層樣式效果，製造微立體效果，並局部添加光源及光感線條，讓視覺更具衝擊力</span
+                    >
                   </p>
                 </li>
+                <div class="img_s">
+                  <picture>
+                    <img src="image/project04/D_item02.png" alt="D_item02" />
+                  </picture>
+                </div>
               </ul>
               <div class="item_img">
                 <picture>
@@ -149,49 +135,37 @@
                 </picture>
               </div>
             </div>
-
-            <div class="item">
-              <ul>
-                <li>
-                  <p>
-                    簽到進度bar利用Photoshop改變徽章色彩飽和度，將簽到前後樣式做出對比。
-                  </p>
-                </li>
-              </ul>
-              <div class="item_img02">
-                <picture>
-                  <img src="image/project04/D_item02.png" alt="D_item02" />
-                </picture>
-              </div>
-            </div>
           </section>
 
           <section class="container">
-            <h2>網頁設計<span class="font_en"> / Web Design </span></h2>
-            <div class="item">
+            <h2>Web Design</h2>
+            <div class="model_03 flex_direction">
               <ul>
-                <!-- <li>
-                <p>
-                  進度表利用css語法position
-                  relative屬性及z-index設定圖層的優先順序
-                </p>
-              </li> -->
+                <li>
+                  <p>
+                    進利用CSS
+                    position屬性，定位區塊在不同螢幕解析度下顯示的位置，並將按鈕在手機版時固定置底
+                  </p>
+                </li>
               </ul>
               <div class="item_img w950">
                 <picture>
-                  <source
-                    srcset="image/project04/D_item03_m.png"
-                    width="100%"
-                    alt="D_item03_m"
-                    media="(max-width: 980px)"
-                  />
                   <img src="image/project04/D_item03.png" alt="D_item03" />
                 </picture>
               </div>
             </div>
 
-            <div class="item">
-              <div class="item_img w950">
+            <div class="model_01 mt28 flex_direction">
+              <ul>
+                <li>
+                  <p>
+                    JavaScript實現點擊按鈕觸發POPUP，<span class="font_block">
+                      視窗背景呈半透明遮罩效果， 點擊叉叉即可關閉視窗。</span
+                    >
+                  </p>
+                </li>
+              </ul>
+              <div class="item_img">
                 <picture>
                   <source
                     srcset="image/project04/D_item04_m.png"
@@ -202,30 +176,26 @@
                   <img src="image/project04/D_item04.png" alt="D_item02_gif" />
                 </picture>
               </div>
-              <ul class="phone">
-                <li>
-                  <p>
-                    JavaScript實現點擊按鈕觸發POPUP，視窗背景呈半透明遮罩效果，點擊叉叉即可關閉視窗。
-                  </p>
-                </li>
-              </ul>
             </div>
           </section>
 
-          <section class="container">
-            <h2>設計展示<span class="font_en"> / DesignDisplay</span></h2>
-            <div class="item">
-              <div class="item_img w950">
-                <picture>
-                  <img src="image/project04/D_item05.png" alt="D_item05" />
-                </picture>
-              </div>
-            </div>
+          <section class="readmore">
+            <a
+              href="https://www.yes123.com.tw/sp/valor/index.asp"
+              target="_blank"
+            >
+              <p>
+                View Project
+                <span>→</span>
+              </p>
+            </a>
           </section>
         </div>
       </article>
       <!-- page end -->
     </main>
+
+    <footer><div class="copyright">© Designed by MollyHung</div></footer>
 
     <!-- js -->
     <script class="autoinsert" src="js/jquery.min.js"></script>

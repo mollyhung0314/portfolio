@@ -84,8 +84,11 @@ video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  font-family: Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro",
-    "微軟正黑體", "Microsoft JhengHei", "新細明體", PMingLiU, sans-serif;
+  /* font-family: "Noto Sans TC", "Icons", monospace, Arial, "Sabon", "cwtexming",
+    "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體",
+    "Microsoft JhengHei", "新細明體", "PMingLiU", sans-serif; */
+  font-family: Rubik, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   box-sizing: border-box;
 }
 article,

@@ -15,7 +15,7 @@
   </head>
   <body>
     <!-- header start-->
-    <div class="container header_bg">
+    <div class="header_bg">
       <div class="header_container">
         <div class="header_title"><a href="#">HUI-YO HUNG</a></div>
         <nav class="menu">
@@ -24,10 +24,7 @@
               <a href="index.html"><div class="active">PROJECTS</div></a>
             </li>
             <li>
-              <a href="app.html"><div>APP</div></a>
-            </li>
-            <li>
-              <a href="creation.html"><div>CREATION</div></a>
+              <a href="design.html"><div>DESIGN</div></a>
             </li>
             <li>
               <a href="about.html"><div>ABOUT</div></a>
@@ -51,10 +48,7 @@
                 <a href="index.html"><div class="active">PROJECTS</div></a>
               </li>
               <li>
-                <a href="app.html"><div>APP</div></a>
-              </li>
-              <li>
-                <a href="creation.html"><div>CREATION</div></a>
+                <a href="design.html"><div>DESIGN</div></a>
               </li>
               <li>
                 <a href="about.html"><div>ABOUT</div></a>
@@ -67,12 +61,8 @@
     <!-- header end-->
 
     <main>
-      <!--main start -->
-      <article>
-        <section>
-          <div class="bg_grey"></div>
-        </section>
-
+      <!-- page start -->
+      <article class="page">
         <section>
           <div class="projects_imgbox">
             <a
@@ -81,11 +71,6 @@
             >
               <div class="projects_img">
                 <picture>
-                  <!-- <source
-                srcset="img/main_mob.jpg"
-                alt="mainbg"
-                media="(max-width: 767px)"
-              /> -->
                   <img
                     src="image/project01/A_main_img.png"
                     width="100%"
@@ -96,14 +81,9 @@
             </a>
           </div>
         </section>
-      </article>
-      <!--main end -->
-
-      <!-- page start -->
-      <article class="page">
         <div class="wrapper">
           <section class="container">
-            <h2>色彩搭配 <span class="font_en"> / Color Match</span></h2>
+            <h2 class="mb0_m">Color Match</h2>
             <p>
               高明度、高彩度的色彩搭配，以黃色襯底，象徵著活潑熱情與充滿希望的畢業新鮮人
             </p>
@@ -134,17 +114,13 @@
           </section>
 
           <section class="container">
-            <h2>視覺設計<span class="font_en"> / Visual Design </span></h2>
-            <div class="item">
+            <h2 class="title_none">Visual Design</h2>
+            <div class="model_01 flex_direction">
               <ul>
                 <li>
+                  <h2>Visual Design</h2>
                   <p>
-                    歪斜的字體，搭上呆萌的主角—青蛙，讓視覺第一印象既滑稽又有趣
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    將標題文字與配圖傾斜，讓人更容易注意到不平衡的版面，相較中規中矩的水平擺放，顯得活潑有特色
+                    將標題文字與配圖傾斜，讓人更容易注意到不平衡的版面，相較中規中矩的水平擺放，顯得活潑有特色，再搭上呆萌配圖，讓視覺第一印象既滑稽又有趣
                   </p>
                 </li>
               </ul>
@@ -155,52 +131,36 @@
               </div>
             </div>
 
-            <div class="item">
+            <div class="model_02">
               <ul>
                 <li>
-                  <p>將主題活動包裝成遊戲機，營造輕鬆有趣的氛圍</p>
+                  <div class="model02_box">
+                    <div class="item_img img_border0">
+                      <picture>
+                        <img src="image/project01/A_item02.png" alt="item02" />
+                      </picture>
+                    </div>
+                    <div class="description">
+                      <p>將主題活動包裝成遊戲機，營造輕鬆有趣的氛圍</p>
+                    </div>
+                  </div>
                 </li>
-              </ul>
-              <div class="item_img">
-                <picture>
-                  <img src="image/project01/A_item02.png" alt="item02" />
-                </picture>
-              </div>
-            </div>
-
-            <div class="item">
-              <ul>
                 <li>
-                  <p>以場景示意，易於使用者了解求職工具重點</p>
+                  <div class="model02_box">
+                    <div class="item_img img_border0">
+                      <picture>
+                        <img src="image/project01/A_item03.png" alt="item03" />
+                      </picture>
+                    </div>
+                    <div class="description">
+                      <p>以場景示意，易於使用者了解求職工具重點</p>
+                    </div>
+                  </div>
                 </li>
               </ul>
-              <div class="item_img">
-                <picture>
-                  <img src="image/project01/A_item03.png" alt="item03" />
-                </picture>
-              </div>
             </div>
 
-            <div class="item">
-              <ul>
-                <li>
-                  <p>配合活動頁所設計的測驗問答，增加與使用者互動</p>
-                </li>
-              </ul>
-              <div class="item_img w950">
-                <picture>
-                  <source
-                    srcset="image/project01/A_item04_m.png"
-                    width="100%"
-                    alt="item04"
-                    media="(max-width: 980px)"
-                  />
-                  <img src="image/project01/A_item04.png" alt="item04" />
-                </picture>
-              </div>
-            </div>
-
-            <div class="item">
+            <div class="model_03 flex_direction">
               <ul>
                 <li>
                   <p>依照測驗結果設計主角KUSO造型與場景</p>
@@ -218,17 +178,47 @@
                 </picture>
               </div>
             </div>
+          </section>
+
+          <section class="container">
+            <h2>Web Design</h2>
+            <div class="model_03 flex_direction mt_m">
+              <ul>
+                <li>
+                  <p>配合活動頁設計測驗問答，增加使用者互動</p>
+                </li>
+              </ul>
+              <div class="item_img w950">
+                <picture>
+                  <source
+                    srcset="image/project01/A_item04_m.png"
+                    width="100%"
+                    alt="item04"
+                    media="(max-width: 980px)"
+                  />
+                  <img src="image/project01/A_item04.png" alt="item04" />
+                </picture>
+              </div>
+            </div>
+          </section>
+
+          <section class="readmore">
             <a
               href="https://www.yes123.com.tw/sp/graduate/index.asp"
               target="_blank"
             >
-              <div class="remark">View Project</div>
+              <p>
+                View Project
+                <span>→</span>
+              </p>
             </a>
           </section>
         </div>
       </article>
       <!-- page end -->
     </main>
+
+    <footer><div class="copyright">© Designed by MollyHung</div></footer>
 
     <!-- js -->
     <script class="autoinsert" src="js/jquery.min.js"></script>
