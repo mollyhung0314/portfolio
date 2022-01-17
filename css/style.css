@@ -842,11 +842,13 @@ main {
 
 .fontbox {
   width: calc(100% - 520px);
-  padding-left: 60px;
+  padding-left: 12px;
+  position: relative;
 }
 
 .fontbox > ul > h3 {
-  position: relative;
+  position: absolute;
+  top: 40px;
   z-index: 1;
   display: inline-block;
 }
@@ -860,11 +862,11 @@ main {
   z-index: -1;
   bottom: 8px;
   right: -76px;
+  display: none;
 }
 
 .fontbox > ul {
   overflow: hidden;
-  padding-left: 20px;
   margin-bottom: 20px;
   text-align: left;
 }
@@ -900,6 +902,21 @@ main {
   .fontbox > ul > h3 {
     display: none;
   }
+}
+
+.position_01 {
+  position: absolute;
+  top: 98px;
+}
+
+.position_02 {
+  position: absolute;
+  top: 246px;
+}
+
+.position_none {
+  position: relative !important;
+  top: 0 !important;
 }
 
 .number {
