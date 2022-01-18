@@ -266,7 +266,7 @@ main {
 .projects_img img {
   margin-bottom: -3px;
   width: 1100px;
-  @media screen and (max-width: 736px) {
+  @media screen and (max-width: 1020px) {
     width: 100%;
   }
 }
@@ -385,34 +385,6 @@ main {
   }
 }
 
-.item {
-  width: 100%;
-  margin-bottom: 88px;
-  > ul {
-    overflow: hidden;
-    margin-bottom: 30px;
-  }
-  > ul > li {
-    color: $main_color;
-    margin-bottom: 12px;
-  }
-  > ul > li:nth-last-child(1) {
-    margin-bottom: 0px;
-  }
-  > ul > li > p {
-    @extend %font_p;
-  }
-  @media screen and (max-width: 736px) {
-    margin-bottom: 28px;
-    > ul {
-      margin-bottom: 8px;
-    }
-    > ul > li {
-      margin-bottom: 12px;
-    }
-  }
-}
-
 // model_01
 .model_01 {
   @extend %model;
@@ -442,18 +414,6 @@ main {
   > ul > li > h2 {
     @extend %font_h2;
     display: block;
-    // position: relative;
-    // z-index: 1;
-    // &:after {
-    //   content: "";
-    //   width: 68px;
-    //   height: 2px;
-    //   background: $black;
-    //   position: absolute;
-    //   z-index: -1;
-    //   bottom: 8px;
-    //   right: -76px;
-    // }
     @media screen and (max-width: 736px) {
       display: none;
     }
@@ -467,6 +427,13 @@ main {
   }
   > ul > li > p {
     @extend %font_p;
+  }
+
+  @media screen and (max-width: 980px) {
+    > ul {
+      width: 100%;
+      padding-left: 0;
+    }
   }
   @media screen and (max-width: 736px) {
     > ul {
@@ -540,17 +507,19 @@ main {
 
 .model02_box {
   width: 100%;
-  border: $box_border_grey;
   overflow: hidden;
   border-radius: 12px;
+  border: $box_border_grey;
   @media screen and (max-width: 736px) {
     border: 0 #e4e4e4 solid;
     border-radius: 8px;
   }
 }
 
-.noshadow {
-  box-shadow: none;
+.noborder {
+  @media screen and (max-width: 736px) {
+    border: $box_border_grey;
+  }
 }
 
 .description {
@@ -569,7 +538,8 @@ main {
   width: 520px;
   border-radius: 12px;
   overflow: hidden;
-  @media screen and (max-width: 736px) {
+
+  @media screen and (max-width: 1100px) {
     width: 100%;
     border-radius: 8px;
   }
@@ -579,10 +549,10 @@ main {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  margin-bottom: -3px;
-  @media screen and (max-width: 736px) {
-    margin-bottom: 0;
-  }
+  // margin-bottom: -3px;
+  // @media screen and (max-width: 736px) {
+  //   margin-bottom: 0;
+  // }
 }
 
 .img_border0 {
@@ -683,13 +653,7 @@ main {
 }
 
 .box_border {
-  width: 518px;
-  border: 1px #e1e1e1 solid;
-  // box-shadow: 0px 1px 3px 0px #e5e5e5;
-  @media screen and (max-width: 736px) {
-    width: 100%;
-    border: 1 #e1e1e1 solid;
-  }
+  border: $box_border_grey;
 }
 
 .app_boxes {
@@ -897,7 +861,7 @@ main {
   margin-bottom: 0px;
   clear: left;
   border-radius: 5px;
-  background-color: rgba(176, 176, 176, 0.05);
+  background-color: rgba(176, 176, 176, 0.07);
   font-size: 12px;
   line-height: 1.5;
   letter-spacing: 2px;
